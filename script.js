@@ -1,15 +1,16 @@
 const menuItems = [
-  { id: 1, name: "Ayam Goreng", price: 15000, category: "makanan", img: "images/ayam goreng.jpg" },
-  { id: 2, name: "Bebek Goreng + Nasi", price: 25000, category: "makanan", img: "images/bebek goreng + nasi.jpg" },
-  { id: 3, name: "Ayam Bakar 1 Ekor", price: 60000, category: "makanan", img: "images/ayam bakar 1 ekor.jpg" },
-  { id: 4, name: "Ayam Bakar + Nasi", price: 22000, category: "makanan", img: "images/ayam bakar + nasi.jpg" },
-  { id: 5, name: "Ayam Geprek + Nasi", price: 18000, category: "makanan", img: "images/ayam geprek + nasi.jpg" },
-  { id: 6, name: "Ayam Bakar Setengah", price: 35000, category: "makanan", img: "images/ayam bakar setengah.jpg" },
-  { id: 7, name: "Nasi Polos", price: 5000, category: "makanan", img: "images/nasi polos.jpg" },
-  { id: 8, name: "Tahu Tempe", price: 8000, category: "makanan", img: "images/tahu tempe.jpg" },
-  { id: 9, name: "Es Teh Manis", price: 5000, category: "minuman", img: "images/ice teh manis.jpg" },
-  { id: 10, name: "Es Jeruk", price: 7000, category: "minuman", img: "images/ice jeruk.jpg" },
+  { id: 1, name: "Ayam Goreng", price: 15000, category: "makanan", img: "images/ayam-goreng.jpg" },
+  { id: 2, name: "Bebek Goreng + Nasi", price: 25000, category: "makanan", img: "images/bebek-goreng-nasi.jpg" },
+  { id: 3, name: "Ayam Bakar 1 Ekor", price: 60000, category: "makanan", img: "images/ayam-bakar-1-ekor.jpg" },
+  { id: 4, name: "Ayam Bakar + Nasi", price: 22000, category: "makanan", img: "images/ayam-bakar-nasi.jpg" },
+  { id: 5, name: "Ayam Geprek + Nasi", price: 18000, category: "makanan", img: "images/ayam-geprek-nasi.jpg" },
+  { id: 6, name: "Ayam Bakar Setengah", price: 35000, category: "makanan", img: "images/ayam-bakar-setengah.jpg" },
+  { id: 7, name: "Nasi Polos", price: 5000, category: "makanan", img: "images/nasi-polos.jpg" },
+  { id: 8, name: "Tahu Tempe", price: 8000, category: "makanan", img: "images/tahu-tempe.jpg" },
+  { id: 9, name: "Es Teh Manis", price: 5000, category: "minuman", img: "images/es-teh-manis.jpg" },
+  { id: 10, name: "Es Jeruk", price: 7000, category: "minuman", img: "images/es-jeruk.jpg" },
 ];
+
 
 let cart = [];
 let currentCategory = "all";
@@ -119,3 +120,4 @@ function checkout() {
 }
 
 renderMenu();
+
